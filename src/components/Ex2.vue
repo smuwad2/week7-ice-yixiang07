@@ -29,7 +29,7 @@ import { Key } from 'react';
     <h2>Shopping Cart</h2>
     <!-- TODO: Add Code Here -->
     <ul>
-      <li v-for="(item, index) in items" :key="index">
+      <li v-for="(item, index) in items">
         {{item}}<button @click="deleteItem(index)">Delete!</button>
       </li>
     </ul>
